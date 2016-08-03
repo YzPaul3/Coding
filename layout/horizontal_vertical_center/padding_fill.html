@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>layout</title>
+    <style type="text/css">
+        .wrap {
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+            width: 400px;
+            height: 400px;
+            background-color: #ccc;
+        }
+        .content {
+            width: 100px;
+            height: 100px;
+            padding: 150px; /* (400-100)/2  */
+            background-color: #333;
+            background-clip:content-box; /* 内容被裁剪到内容框，Internet Explorer 8 以及更早的版本不支持 background-clip 属性 */
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="content">
+            
+        </div>
+    </div>
+</body>
+</html>
