@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>layout</title>
+    <style type="text/css">
+        html, body {
+            margin: 0;
+        }
+        .wrap {
+            float: left;
+            width: 100%;
+            height: 400px;
+            background-color: #ccc;
+        }
+        .ele {
+            float: left;
+            position: relative;
+            left: 50%;
+            top: 50%;
+        }
+        .ele-inner {
+            position: relative;
+            left: -50%;
+            -webkit-transform : translate3d(0, -50%, 0);
+                    transform : translate3d(0, -50%, 0);
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="ele">
+            <div class="ele-inner">
+                居中居中居中居中居中居中<br>
+                居中居中居中居中居中居中居中居中居<br>
+                中居中居中居中居中居中居中居中居中居<br>
+                中居中居中居中居中居中居中
+            </div>
+        </div>
+    </div>
+</body>
+</html>
